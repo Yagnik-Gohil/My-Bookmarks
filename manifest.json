@@ -9,5 +9,19 @@
     "icons": {
         "128": "logo.png"
     },
-    "permissions": ["activeTab"]
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "js": [
+                "jquery.js",
+                "background.js"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
+        }
+    ]
 }
