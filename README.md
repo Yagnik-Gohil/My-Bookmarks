@@ -1,4 +1,4 @@
-## Google Chrome Extention For Bookmars
+## Google Chrome Extention For Bookmarks
 Simple Google Chrome Extention For Bookmarks
 
 **Functionality:**
